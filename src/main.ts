@@ -8,5 +8,12 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch((err) => console.error(err));
+
+function mudarStilo(color: string) {
+  document.documentElement.style.setProperty("--bg-color-3",color);
+}
+
+export { mudarStilo };

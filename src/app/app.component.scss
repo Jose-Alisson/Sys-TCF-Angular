@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto&display=swap');
+
+.navbar{
+  background-color: var(--bg-color-1);
+}
+
+.nav-con {
+  display: flex;
+  height: 70px;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: var(--bg-color-4);
+  text-shadow: 2px 2px 4px var(--bg-color-3);
+}
+
+.nav-itens ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-intens ul li,a {
+  text-decoration: none;
+  color: var(--bg-color-4);
+  text-transform: uppercase;
+  margin: 20px 5px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.2s;
+}
+
+.nav-intens ul li,a:hover{
+  color: var(--bg-color-3);
+}
